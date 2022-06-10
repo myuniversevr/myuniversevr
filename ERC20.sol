@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at BscScan.com on 2022-05-25
+ *Submitted for verification at BscScan.com on 2022-06-10
 */
 
 pragma solidity 0.5.3;
@@ -148,7 +148,7 @@ contract Token is Context, IBEP20, Ownable {
     _name = "My Universe";
     _symbol = "MYUNI";
     _decimals = 18;
-    _totalSupply = 20000000000 * (10 ** uint256(_decimals));
+    _totalSupply = 3000000000 * (10 ** uint256(_decimals));
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
